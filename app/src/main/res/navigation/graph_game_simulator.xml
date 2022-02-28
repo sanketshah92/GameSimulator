@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_game_simulator"
+    app:startDestination="@id/teamsFragment">
+
+    <fragment
+        android:id="@+id/teamsFragment"
+        android:name="com.sanket.iplsimulator.presentation.fragments.TeamsFragment"
+        android:label="TeamsFragment"
+        tools:layout="@layout/fragment_start_ipl">
+        <action
+            android:id="@+id/action_teamsFragment_to_gameSimulatorFragment"
+            app:destination="@id/gameSimulatorFragment" />
+        <action
+            android:id="@+id/action_teamsFragment_to_addTeamDialogFragment"
+            app:destination="@id/addTeamDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameSimulatorFragment"
+        android:name="com.sanket.iplsimulator.presentation.fragments.GameSimulatorFragment"
+        android:label="GameSimulatorFragment"
+        tools:layout="@layout/fragment_game_simulation">
+        <action
+            android:id="@+id/action_gameSimulatorFragment_to_gameWinnerFragment"
+            app:destination="@id/gameWinnerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWinnerFragment"
+        android:name="com.sanket.iplsimulator.presentation.fragments.GameWinnerFragment"
+        android:label="GameWinnerFragment"
+        tools:layout="@layout/fragment_winner" />
+    <dialog
+        android:id="@+id/addTeamDialogFragment"
+        android:name="com.sanket.iplsimulator.presentation.fragments.AddTeamDialogFragment"
+        android:label="AddTeamDialogFragment"
+        tools:layout="@layout/dialog_add_team" />
+</navigation>

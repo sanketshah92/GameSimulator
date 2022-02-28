@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/rounded_button_border.xml" value="0.2856410256410256" />
+        <entry key="app/src/main/res/drawable/rounded_button_filled.xml" value="0.15625" />
+        <entry key="app/src/main/res/drawable/rounded_selector.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/dialog_add_team.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/fragment_game_simulation.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/fragment_start_ipl.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/fragment_winner.xml" value="0.14673913043478262" />
+        <entry key="app/src/main/res/layout/item_game.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_ipl_team.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/add_team.xml" value="0.27395833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
